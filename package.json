@@ -1,0 +1,25 @@
+{
+  "name": "cloudconvert",
+  "version": "1.0.0",
+  "description": "Cloud Convert",
+  "main": "./exec/start.js",
+  "scripts": {
+    "test": "node ./exec/start.js",
+    "start": "node ./exec/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cloudcon"
+  },
+  "author": "cdtruth",
+  "license": "ISC",
+  "dependencies": {
+    "cloudconvert": "^2.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "file-base64": "^1.0.0",
+    "gitignore": "^0.7.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}

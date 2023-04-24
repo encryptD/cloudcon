@@ -50,12 +50,12 @@ app.listen(port, () => {
                         "import-1": {
                             "operation": "import/base64",
                             "file": result,
-                            "filename": "test.png"
+                            "filename": "test1.pdf"
                         },
                         "task-1": {
                             "operation": "convert",
-                            "input_format": "png",
-                            "output_format": "pdf",
+                            "input_format": "pdf",
+                            "output_format": "bmp",
                             "engine": "imagemagick",
                             "input": [
                                 "import-1"
@@ -79,7 +79,7 @@ app.listen(port, () => {
                     let redURL = fileUrl.url;
                     console.log(fileUrl);
 
-                    res.render(path2tx,{title:'Download File',redURL:redURL});
+                  //  res.render(path2tx,{title:'Download File',redURL:redURL});
                 }    
                 startOp(result);
                 //return result;
